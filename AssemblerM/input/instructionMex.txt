@@ -1,0 +1,14 @@
+.DATA
+.TEXT
+MAIN:
+mul x3, x1, x2		//0
+mulh x3, x1, x2		//4
+####
+mulhsu x3, x1, x21	//8
+mulhu x31, x1, x21	//12
+div x31, x1, x21	//16
+divu x8, x1, x21	//20
+rem x8, x1, x21		//24
+remu x8, x13, x21	//28
+//HEHEHE
+#COMMENT
